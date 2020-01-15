@@ -1,0 +1,1 @@
+This repo contain all the resources and script to setup a workstation
