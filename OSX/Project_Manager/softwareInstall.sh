@@ -31,7 +31,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 brew cask install tunnelblick
 
 # Iterm2
-brew cask install iterm 2
+brew cask install iterm2
 
 # The unarchiver
 brew cask install the-unarchiver
@@ -49,7 +49,7 @@ brew cask install slack
 brew cask install keybase
 
 # Google Chrome
-brew cask install chrome
+brew cask install google-chrome
 
 # Google File Stream (instead of backup-and-sync)
 brew cask install google-drive-file-stream
