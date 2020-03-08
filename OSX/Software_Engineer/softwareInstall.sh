@@ -23,10 +23,11 @@ brew link openssl --force
 # Install Wget
 install_or_upgrade "wget"
 
-# InfluxDB (Mainly for the CLI) and MongoDB CLI
+# InfluxDB (Mainly for the CLI) and MongoDB 3.6
 install_or_upgrade "influxdb"
 brew tap mongodb/brew
-install_or_upgrade "mongodb-community-shell"
+install_or_upgrade "mongodb-community@3.6"
+echo 'export PATH="/usr/local/opt/mongodb-community@3.6/bin:$PATH"' >> ~/.zshrc
 
 # Git
 install_or_upgrade "git"
