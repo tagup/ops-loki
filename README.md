@@ -1,1 +1,1 @@
-This repo contain all the resources and script to setup a workstation
+This repository contains scripts and instructions for configuring a new Apple workstation. It is planned to merge into the mgmt repository.
